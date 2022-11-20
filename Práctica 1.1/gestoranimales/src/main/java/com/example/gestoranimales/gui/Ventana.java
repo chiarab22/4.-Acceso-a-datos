@@ -7,12 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
-/**
- *
- *
- * @author Santiago Faci
- * @version curso 2015-2016
- */
 public class Ventana {
     private JPanel panel1 = new JPanel();
     JTextField tfNombre;
