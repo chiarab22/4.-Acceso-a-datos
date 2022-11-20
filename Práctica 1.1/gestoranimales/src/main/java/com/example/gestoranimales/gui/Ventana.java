@@ -1,12 +1,6 @@
 package com.example.gestoranimales.gui;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Vector;
-
 public class Ventana {
     private JPanel panel1 = new JPanel();
     JTextField tfNombre;
@@ -28,7 +22,7 @@ public class Ventana {
 
     public Ventana() {
 
-        JFrame frame = new JFrame("Gestor de Animales");
+        JFrame frame = new JFrame("Gestor de animales");
         frame.setContentPane(panel1);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
