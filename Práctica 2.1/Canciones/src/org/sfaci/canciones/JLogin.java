@@ -1,4 +1,4 @@
-package com.example.login.gui;
+package org.sfaci.canciones;
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -38,7 +38,7 @@ public class JLogin extends JDialog implements ActionListener {
 
     private void aceptar() {
         if ((tfUsuario.getText().equals(""))
-                || (tfContrasena.getPassword().toString().equals(""))) {
+            || (tfContrasena.getPassword().toString().equals(""))) {
             JOptionPane.showMessageDialog(null,
                     "Debes introducir usuario y contraseña",
                     "Login", JOptionPane.ERROR_MESSAGE);

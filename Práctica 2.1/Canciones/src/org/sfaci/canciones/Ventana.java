@@ -1,8 +1,7 @@
-package com.example.login.gui;
+package org.sfaci.canciones;
 
-import com.example.login.util.Util;
 import com.toedter.calendar.JDateChooser;
-import javafx.beans.property.adapter.JavaBeanObjectProperty;
+import org.sfaci.canciones.util.Util;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
@@ -85,7 +84,7 @@ public class Ventana implements ActionListener {
                 String nacionalidad = resultado.getString("nacionalidad");
 
                 Object[] fila = new Object[]{nombre, apellidos,
-                        fechaNacimiento, nacionalidad};
+                    fechaNacimiento, nacionalidad};
 
                 mtCantantes.addRow(fila);
             }
@@ -96,7 +95,7 @@ public class Ventana implements ActionListener {
     }
 
     private void conectar() throws ClassNotFoundException,
-            SQLException {
+        SQLException {
 
         Class.forName("com.mysql.jdbc.Driver");
         // FIXME coger la información de conexion
