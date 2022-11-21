@@ -1,7 +1,5 @@
 # 4. Acceso a datos
 
-### Problemas: al pasar los proyectos a SpringBoot no se compilan.
-
 Práctica 4 de Programación Concurrente de Acceso a datos
 
 Link al repositorio: https://github.com/chiarab22/4.-Acceso-a-datos.git
